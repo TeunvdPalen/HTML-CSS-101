@@ -1,0 +1,46 @@
+body{
+	margin: 0;
+	font-family: arial, helvetica;
+	color: black;
+}
+
+.cf:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.container{
+	margin: 0 auto;
+	width: 800px;
+}
+
+.header{
+	background: #ccc;
+	color: black;
+	padding: 20px 0;
+}
+
+.logo, .sidebar{
+	width: 300px;
+	float: left;
+}
+
+.navigatie, .content{
+	width: 500px;
+	float: left;
+}
+
+.maincontent{
+	background: indianred;
+}
+
+.footer{
+	background: seagreen;
+}
+
+.blokfooter{
+	text-align: center;
+	padding: 20px 0;
+	color: whitesmoke;
+}

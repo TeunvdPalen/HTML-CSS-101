@@ -1,0 +1,106 @@
+body{
+	margin: 0;
+	color: black;
+	font-family: arial;
+}
+
+.cf:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.container{
+	margin: 0 auto;
+	width: 900px;
+}
+
+header{
+	background: black;
+	color: grey;
+	padding: 10px 0;
+}
+
+.logo{
+	float: left;
+	width: 250px;
+	padding-top: 5px;
+}
+
+.login{
+	float: left;
+	width: 650px;
+	text-align: right;
+}
+
+.login>.signin{
+	background-color: forestgreen;
+	border: none;
+	color: white;
+	padding: 6px 10px;
+	border-radius: 5px;
+}
+
+.login>input{
+	padding: 5px 0;
+	border-radius: 5px;
+	color: lightgrey;
+}
+
+article{
+	background-color: lightgrey;
+	padding: 30px 0;
+}
+
+h1{
+	font-size: 70px;
+	padding: 0;
+	margin-bottom: 15px;
+	margin-top: 30px;
+}
+
+.content>p{
+	margin: 0;
+}
+
+.content>button{
+	background-color: dodgerblue;
+	color: white;
+	border: 1px solid blue;
+	border-radius: 5px;
+	text-align: center;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 5px 10px;
+	margin: 5px 0;
+}
+
+.subcontent{
+	float: left;
+	width: 300px;
+	margin: 15px 0;
+}
+
+h2{
+	margin-bottom: 10px;
+}
+
+.subcontent>p{
+	margin: 0;
+}
+
+.subcontent>button{
+	background-color: white;
+	border: 1px solid grey;
+	text-align: center;
+	padding: 8px 13px;
+	border-radius: 5px;
+	margin-top: 10px;
+}
+
+
+.copyright{
+	margin-top: 10px;
+	padding-top: 15px;
+	border-top: 1px solid lightgrey;
+}

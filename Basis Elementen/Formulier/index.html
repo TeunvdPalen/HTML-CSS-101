@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+	<meta charset="utf-8">
+	<title>DVD</title>
+</head>
+<body>
+	<h1>DVD</h1>
+
+	<form method="POST">
+		<select name="dvd">
+			<option value="1">F9: The fast saga</option>
+			<option value="2">Halloween</option>
+			<option value="3">The thing</option>
+			<option value="4">Cowboy bebop</option>
+			<option value="5">Cruella</option>
+			<option value="6">Black widow</option>
+			<option value="7">The suicide squad</option>
+			<option value="8">On the rocks</option>
+			<option value="9">A clockwork orange</option>
+			<option value="10">Tombstone</option>
+		</select>
+
+		<p>Voornaam: <input type="text" name="voornaam"> 
+		Familienaam: <input type="text" name="familienaam"><br>
+		</p>
+
+		<p>Straat: <input type="text" name="adres"> 
+		Huisnummer: <input type="text" name="huisnummer"><br>
+
+		Postcode: <input type="text" name="postcode">
+		Land:
+		<select name="land">
+			<option >belgie</option>
+			<option >luxemburg</option>
+			<option >nederland</option>
+		</select>
+		</p>
+		
+		<p>
+		DHL: <input type="radio" name="post">
+		De Post: <input type="radio" name="post">
+		PostNL: <input type="radio" name="post"><br>
+		Voorwaarde: <input type="checkbox" name="voorwaarde"><br>
+		<input type="submit" value="verzenden"><br>
+	</form>
+</body>
+</html>

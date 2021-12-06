@@ -1,0 +1,102 @@
+a.navigatie:link{
+	background: #336699;
+	color: white;
+	padding: 5px 10px;
+	border-radius: 5px;
+	text-decoration: none;
+}
+
+a.navigatie:hover{
+	background: #333;
+}
+
+a.navigatie:visited{
+	color: #CCC;
+}
+
+a.navigatie:active{
+	color: red;
+}
+
+a.navigatie:focus{
+	color: black;
+}
+
+a:link{
+	color: #336699;
+}
+
+
+a:visited{
+	color: #333;
+}
+
+/* ALLE ONEVEN TR's*/
+tr:nth-child(odd){
+	background: #CCC;
+}
+
+/* ALLE ONEVEN P's*/
+p:nth-child(odd){
+	background: #CCC;
+}
+
+
+/* ALLE EVEN TR's*/
+td:nth-child(even){
+	background: #333;
+	color: white;
+}
+
+/* ENKEL DE 3e TR */
+tr:nth-child(3){
+	background: #CCC;
+}
+
+/* ELKE 3e TR (nr 3, nr 6, nr 9, ...) */
+tr:nth-child(3n){
+	background: #CCC;
+}
+
+/* OP BASIS VAN FORMULE (n wordt doorlopen) = NR 2, NR 5, NR 8 */
+tr:nth-child(3n + 2){
+	background: green;
+}
+
+
+table{
+	/* HAALT RUIMTE TUSSEN DE CELLEN WEG */
+	border-collapse: collapse;
+}
+td{
+	
+	padding: 5px 20px;
+}
+
+/* ELKE P DIE VOLGT OP EEN H1 */
+h1+p{
+	font-weight: bold;
+}
+
+/* ELKE UL DIE IN EEN ELEMENT MET CLASS NAVIGATIE ZIT */
+.navigatie ul{
+
+}
+
+
+/* ZOWEL ELKE H1 ALS ELKE P */
+h1, p{
+
+}
+
+/* ELKE UL DIE EEN RECHTSTREEKS CHILD IS
+VAN EEN ELEMENT MET ALS CLASS "NAVIGATIE" */
+.navigatie>ul{
+	background: blue;
+}
+
+/* EEN ELEMENT MET ALS CLASS "DOORSTREEPT" */
+
+.doorstreept{
+	text-decoration: line-through;
+}
